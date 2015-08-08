@@ -3,7 +3,7 @@
 #This file connects to the MySQL database
 
 #MySQL Host
-$host = "bigoofn.com";
+$host = "localhost";
 
 #login user
 $user = "heartUser";
