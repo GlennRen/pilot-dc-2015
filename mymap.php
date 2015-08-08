@@ -26,6 +26,15 @@
           title: heart_rate.toString()
         })
       }
+
+      <?php
+      include("connection.php")
+      $q = "SELECT * from heart";
+      $r = mysqli_query($dbc, $q);
+      $arr = mysql_fetch_assoc($r);
+      echo(sizeof($arr))
+      ?>
+
        for(i = 0; i < 7; i++) {
           dropMarker(38.830610 + i, -77.304829 + i, 144 + i);
         }
