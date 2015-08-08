@@ -15,7 +15,16 @@ html {
 	margin-top: 25em;
 }
 
-#login p {
-	line-height: 5em;
+#login h3 {
+	line-height: 3em;
 	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
 }
