@@ -32,7 +32,7 @@
       $q = "SELECT * from heart";
       $r = mysqli_query($dbc, $q);
       $arr = mysql_fetch_assoc($r);
-      echo(sizeof($arr))
+      echo(sizeof($arr));
       ?>
 
        for(i = 0; i < 7; i++) {
