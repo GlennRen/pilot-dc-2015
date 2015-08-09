@@ -1,3 +1,4 @@
+
 function initialize() {
   var mapCanvas = document.getElementById('map-canvas');
   var mapOptions = {
@@ -12,11 +13,10 @@ function initialize() {
     position: new google.maps.LatLng(longitude, latitude),
     map: map,
     title: heart_rate.toString()
-    })
-  }
-  for(i = 0; i < 7; i++) {
+  })
+}
+ for(i = 0; i < 7; i++) {
     dropMarker(38.830610 + i, -77.304829 + i, 144 + i);
   }
 }
-
 google.maps.event.addDomListener(window, 'load', initialize);
