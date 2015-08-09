@@ -52,7 +52,7 @@
 
         <tbody>
           <tr ng-repeat="x in locations">
-            <td>{{x.latitude}}</td>
+            <td>{{x.latitude}}, {{x.longitude}}</td>
             <td>{{x.time}}</td>
             <td>{{x.heart_rate}}</td>
           </tr>
@@ -62,8 +62,9 @@
     <script>
     var app = angular.module('myApp', []);
     app.controller('locationCtrl', function($scope, $http) {
-      $http.get("http://bigoofn.com/heart/ajax.php").success(function (response) {$scope.locations = response.records;});
+      $http.get("http://glennren.me/pilot-dc-2015/ajax.php").success(function (response) {$scope.locations = response.records;});
     });
+    /* http://bigoofn.com/heart/ajax.php */
     </script>
   </body>
 </html>
