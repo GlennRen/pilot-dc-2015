@@ -1,0 +1,30 @@
+html { 
+  background: url(http://defwalls.com/wallpapers-n/water-sunset-mountains-nature-winter-snow-calm-lakes-peaceful-sea-_1220-2.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#login {
+	background-color: #0A3B59;
+	width: 10em;
+	border-radius: .7em;
+	text-align: center;
+	margin: auto;
+	margin-top: 25em;
+}
+
+#login h3 {
+	line-height: 3em;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Raleway', sans-serif;
+}
